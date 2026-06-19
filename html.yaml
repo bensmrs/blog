@@ -5,8 +5,9 @@ template: template.html
 css:
   - /css/style.css
 filters:
+  - lua/age.lua
   - lua/cvitem.lua
   - lua/home-project.lua
-  - lua/insert-sections.lua
   - lua/photo.lua
   - lua/project.lua
+  - lua/sections.lua

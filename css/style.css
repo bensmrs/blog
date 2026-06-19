@@ -204,12 +204,12 @@ nav a:not(:hover) + .header-desc * {
   position: absolute;
 }
 #header-desc-projects-background {
-  background: url(images/perlin.svg);
+  background: url(/img/perlin.svg);
   animation: slide 30s linear infinite;
   width: 800px;
 }
 #header-desc-projects-background-2 {
-  background: url(images/perlin-2.svg);
+  background: url(/img/perlin-2.svg);
   animation: slide-2 25s linear infinite;
   width: 1100px;
   mix-blend-mode: color-dodge;
@@ -537,42 +537,42 @@ hr.wide::after {
   position: relative;
 }
 .eos-5d-mark-iv {
-  background: url(images/eos-5d-mark-iv.svg) no-repeat;
+  background: url(/img/eos-5d-mark-iv.svg) no-repeat;
   height: calc(76.55 * var(--spx));
   width: calc(134.33 * var(--spx));
 }
 section.showcase > .ef-50-14, footer.ef-50-14::after {
-  background: url(images/ef-50-14.svg) no-repeat;
+  background: url(/img/ef-50-14.svg) no-repeat;
   height: calc(52.4 * var(--spx));
   width: calc(63 * var(--spx));
 }
 section.showcase > .ef-80-200-28, footer.ef-80-200-28::after {
-  background: url(images/ef-80-200-28.svg) no-repeat;
+  background: url(/img/ef-80-200-28.svg) no-repeat;
   height: calc(166.9 * var(--spx));
   width: calc(73.2 * var(--spx));
 }
 section.showcase > .ef-100-28, footer.ef-100-28::after {
-  background: url(images/ef-100-28.svg) no-repeat;
+  background: url(/img/ef-100-28.svg) no-repeat;
   height: calc(111.8 * var(--spx));
   width: calc(66.4 * var(--spx));
 }
 section.showcase > .ef-24-70-28, footer.ef-24-70-28::after {
-  background: url(images/ef-24-70-28.svg) no-repeat;
+  background: url(/img/ef-24-70-28.svg) no-repeat;
   height: calc(102.8 * var(--spx));
   width: calc(76.2 * var(--spx));
 }
 section.showcase > .ef-11-24-40, footer.ef-11-24-40::after {
-  background: url(images/ef-11-24-40.svg) no-repeat;
+  background: url(/img/ef-11-24-40.svg) no-repeat;
   height: calc(120 * var(--spx));
   width: calc(93.4 * var(--spx));
 }
 section.showcase > .ef-500-40, footer.ef-500-40::after {
-  background: url(images/ef-500-40.svg) no-repeat;
+  background: url(/img/ef-500-40.svg) no-repeat;
   height: calc(342.8 * var(--spx));
   width: calc(125.2 * var(--spx));
 }
 section.showcase > .ef-2x, footer.ef-2x::before {
-  background: url(images/ef-2x.svg) no-repeat;
+  background: url(/img/ef-2x.svg) no-repeat;
   height: calc(57 * var(--spx));
   width: calc(62.4 * var(--spx));
 }
@@ -728,7 +728,7 @@ section.showcase > p {
 .photo:hover > .about > * {
   opacity: 1;
 }
-.photo > .about > .description {
+.photo > .about > .description, .photo > .about > p {
   width: 85%;
   position: absolute;
   left: 7.5%;
@@ -808,7 +808,7 @@ section.showcase > p {
 .photo:hover > .about.narrow::before {
   height: calc(45 * var(--px));
 }
-.photo > .about.narrow > .description {
+.photo > .about.narrow > .description, .photo > .about.narrow > p {
   top: calc(50% - 33 * var(--px));
 }
 .sup {
@@ -971,27 +971,27 @@ section.me > img {
   border-radius: 10px;
   box-shadow: 0 1px 8px -4px #000;
 }
-.me > div {
+.me > section {
   width: calc(100% - 200px - 8em);
   display: inline-block;
   position: absolute;
   font-family: var(--serif);
-  margin-left: 2em;
+  margin: 0 0 0 2em;
 }
-.me > div > .name {
+.me > section > .name {
   font-size: 1.1rem;
 }
-.me > div > .dob {
+.me > section > .dob {
   font-size: .9rem;
   margin-left: .5em;
 }
-.me > div > .dob::before {
+.me > section > .dob::before {
   content: "(";
 }
-.me > div > .dob::after {
+.me > section > .dob::after {
   content: ")";
 }
-.me > div > ul {
+.me > section > ul {
   margin-top: 1.5ex;
   font-family: var(--sans);
 }
@@ -1225,10 +1225,10 @@ section.split > section.right {
   .photo:hover > .about::before, .photo:hover > .about::after {
     display: none;
   }
-  .photo > .about > .description, .photo > .about.narrow > .description {
+  .photo > .about > .description, .photo > .about.narrow > .description, .photo > .about > p, .photo > .about.narrow > p {
     top: calc(50% - 22px);
   }
-  .photo > .about > .description {
+  .photo > .about > .description, .photo > .about > p {
     width: 90%;
     left: 5%;
   }
@@ -1320,7 +1320,7 @@ section.split > section.right {
   .photo > .about {
     font-size: .65rem;
   }
-  .photo > .about > .description, .photo > .about.narrow > .description {
+  .photo > .about > .description, .photo > .about.narrow > .description, .photo > .about > p, .photo > .about.narrow > p {
     top: calc(50% - 18px);
   }
   section.showcase {
@@ -1435,7 +1435,7 @@ section.split > section.right {
   .photo > .about > footer {
     display: none;
   }
-  .photo > .about > .description, .photo > .about.narrow > .description {
+  .photo > .about > .description, .photo > .about.narrow > .description, .photo > .about > p, .photo > .about.narrow > p {
     top: calc(50% - 6px);
   }
   .photo > .about > a.download, .photo > .about > a.download.narrow {

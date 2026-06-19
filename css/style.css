@@ -728,7 +728,7 @@ section.showcase > p {
 .photo:hover > .about > * {
   opacity: 1;
 }
-.photo > .about > .description, .photo > .about > p {
+.photo > .about > p {
   width: 85%;
   position: absolute;
   left: 7.5%;
@@ -808,7 +808,7 @@ section.showcase > p {
 .photo:hover > .about.narrow::before {
   height: calc(45 * var(--px));
 }
-.photo > .about.narrow > .description, .photo > .about.narrow > p {
+.photo > .about.narrow > p {
   top: calc(50% - 33 * var(--px));
 }
 .sup {
@@ -904,7 +904,7 @@ a.github::before {
 .content > .grades {
   text-align: center;
 }
-.mono, code {
+code {
   font-family: var(--mono);
 }
 a.and.website {
@@ -1225,10 +1225,10 @@ section.split > section.right {
   .photo:hover > .about::before, .photo:hover > .about::after {
     display: none;
   }
-  .photo > .about > .description, .photo > .about.narrow > .description, .photo > .about > p, .photo > .about.narrow > p {
+  .photo > .about > p, .photo > .about.narrow > p {
     top: calc(50% - 22px);
   }
-  .photo > .about > .description, .photo > .about > p {
+  .photo > .about > p {
     width: 90%;
     left: 5%;
   }
@@ -1320,7 +1320,7 @@ section.split > section.right {
   .photo > .about {
     font-size: .65rem;
   }
-  .photo > .about > .description, .photo > .about.narrow > .description, .photo > .about > p, .photo > .about.narrow > p {
+  .photo > .about > p, .photo > .about.narrow > p {
     top: calc(50% - 18px);
   }
   section.showcase {
@@ -1435,7 +1435,7 @@ section.split > section.right {
   .photo > .about > footer {
     display: none;
   }
-  .photo > .about > .description, .photo > .about.narrow > .description, .photo > .about > p, .photo > .about.narrow > p {
+  .photo > .about > p, .photo > .about.narrow > p {
     top: calc(50% - 6px);
   }
   .photo > .about > a.download, .photo > .about > a.download.narrow {

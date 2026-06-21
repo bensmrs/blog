@@ -5,9 +5,9 @@ p-projects: true
 ---
 
 ::: {.heading}
-I contribute to many open source projects. On this page, you can find a hopefully exhaustive, unsorted presentation of the various crimes I’ve committed in these projects.
+I contribute to many open source projects. On this page, you can find a hopefully exhaustive, unsorted presentation of the various crimes I’ve committed in a selection of these projects.
 
-<p class="categories">[Personal projects](#personal-projects){.category}[Future projects](#future-projects){.category}[Modest contributions](#modest-contributions){.category}[ResEl](#resel){.category}[CAPRICA](#caprica){.category}[IMT Atlantique](#imt-atlantique){.category}</p>
+<p class="categories">[Personal projects](#personal-projects){.category}[lab[0]](#lab0){.category}[FLOSS contributions](#floss-contributions){.category}[ResEl](#resel){.category}[CAPRICA](#caprica){.category}[IMT Atlantique](#imt-atlantique){.category}[Future projects](#future-projects){.category}</p>
 :::
 
 # Personal projects
@@ -30,12 +30,20 @@ Carnac is my playground for implementing some [lambda calculus](https://en.wikip
 `cronlib` is an OCaml library to parse crontabs. Nothing more for the moment!
 :::
 
+::: {type=project name=Gendarme github=bensmrs/gendarme maturity=A reliability=A fieldtesting=B}
+Gendarme is an OCaml library to marshal and unmarshal OCaml data types to various serialization languages.
+:::
+
 ::: {type=project name=ocamLDAP github=bensmrs/ocamldap maturity=A reliability=A fieldtesting=A}
 I maintain a fork of ocamLDAP, the OCaml library to talk to LDAP servers. My fork makes connections non-blocking, better handles TLS and respects connection timeouts without `SIGALRM` tricks. Use it!
 :::
 
 ::: {type=project name="PPX collection" github=bensmrs/ppx_catch github2=bensmrs/ppx_inline_module github3=bensmrs/ppx_macro github4=bensmrs/ppx_map maturity=A reliability=A fieldtesting=A}
 The day I discovered [preprocessor extentions](https://ocaml.org/docs/metaprogramming) for OCaml was the beginning of a long love story! From time to time, I develop new PPXs to simplify my life and make my OCaml code even more expressive.
+:::
+
+::: {type=project name="This blog" image=bensmrs.fr.png github=bensmrs/blog maturity=A reliability=A fieldtesting=A}
+This blog is written in Markdown and converted into the current website with Pandoc, with a good amount of Lua filters.
 :::
 
 ::: {type=project name=timed-cache github=bensmrs/timed-cache maturity=A- reliability=A fieldtesting=A}
@@ -47,36 +55,29 @@ Yarec, for *Yet Another RexEx Compiler* is a safe, non-explosive, quasi-[PCRE](h
 :::
 
 
-# Future projects
+# lab[0]
 
-I’ve got some big projects in the pipeline on which I haven’t yet found the time to do much work.
+lab[0] is the business name I’m using for some of my big projects. There is currently only one product under the 0WM umbrella.
 
-::: {type=project name=Deccert}
-Deccert is a project to build a decentralized, sharded [CERT](https://en.wikipedia.org/wiki/Computer_emergency_response_team) ecosystem between trusted network communities, to share the burden of risk management teams and systems and provide an entry point for smaller players based on the goodwill of larger players.
+::: {type=project name=0WM website=0wm.lab0.cc github=lab0-cc/0WM-Server github2=lab0-cc/0WM-Client github3=lab0-cc/0WM-OpMode github4=lab0-cc/0WM-Models}
+0WM is a next-generation Wi-Fi mapping solution using off-the-shelf components and open standards to perform hassle-free, large-scale Wi-Fi surveys.
 :::
 
-::: {type=project name=0TG}
-The Zero Transfer Gateway is a project to build a decentralized, multi-protocol data transfer monitor. If you’re not in the finance or automotive industries, chances are you’ve never heard of such a thing; I’d like to democratize these systems.
-:::
 
-::: {type=project name=Tracer kernminus=}
-I’m not a huge fan of visual programming. However, in some business-critical cases, it can be important to know precisely, visually, where things go wrong, why, and progressively patch code. I am working on an object- and data-oriented visual language with live-patching and A/B testing capabilities called Tracer.
-:::
+# FLOSS contributions
 
-# Modest contributions
+Here are a few contributions I made in open source projects. I really liked how welcoming these projects’ communities were, and highly recommend exploring them.
 
-Here are a few small contributions I made in open source projects. I really liked how welcoming these projects’ communities were, with a special mention for Git Cola, which I think is a very good project for getting started in open source.
-
-::: {type=project name=ExtUnix github=ygrek/extunix}
-ExtUnix is a collection of OCaml bindings to low-level UNIX system calls. I added support for IPv6 in the `getifaddrs` ExtUnix binding.
-:::
-
-::: {type=project name=Incus github=lxc/incus}
-Incus is a container and virtual machine manager written in Go. I added support for low-level, user-defined dynamic operations on virtual machines using the QEMU Machine Protocol (QMP).
+::: {type=project name=Bareos github=bareos/bareos}
+[Bareos](https://www.bareos.com/) is an enterprise-grade backup solution supporting complex backup and recovery scenarios on disk and on tape. I developed a Bareos plugin for Incus, providing full and incremental backup and restores of Incus servers.
 :::
 
 ::: {type=project name="Git Cola" image=git-cola.png github=git-cola/git-cola}
 Git Cola is a graphical interface for Git written in Python. I’ve added to Git Cola the ability to manage local file exclusions, an option to reset the window layout, the ability to rename stashes, and a dialog for consulting Git server responses.
+:::
+
+::: {type=project name=Incus github=lxc/incus}
+[Incus](https://linuxcontainers.org/incus/) is a container and virtual machine manager written in Go. I added plenty of features to Incus across its codebase and became a maintainer of the project in 2026.
 :::
 
 ::: {type=project name=linuxcontainers.org image=linuxcontainers.org.png github=lxc/linuxcontainers.org}
@@ -136,10 +137,32 @@ To ensure the reproducibility of my thesis experiments, I have developed scripts
 `mitre2owl` is a Python tool for translating [MITRE](https://www.mitre.org/) XML reference datasets ([CAPEC](https://capec.mitre.org/), [CVE](https://www.cve.org/) and [CWE](https://cwe.mitre.org/)) into expressive OWL ontologies. It uses XSD schemas to build specialized parsers for the XML data, which in turn are used to build the ontologies. `mitre2owl` is used to build nightly versions of the ontologies automatically with [GitHub Actions](https://github.com/features/actions).
 :::
 
+
 # IMT Atlantique
 
-Working at [IMT Atlantique](https://www.imt-atlantique.fr/), I have had the opportunity to develop free and open source software. These projects are used on a daily basis there, and I hope they can be of use to others elsewhere.
+Working at [IMT Atlantique](https://www.imt-atlantique.fr/), I have had the opportunity to develop free and open source software. These projects are used regularly there, and I hope they can be of use to others elsewhere.
+
+::: {type=project name=Accents image=accents.png github=bensmrs/accents maturity=C reliability=B+ fieldtesting=B}
+Accents is a web application allowing students to compare their pronunciation of sentences with provided baseline recordings, to both improve their accent and help them understand the intricacies of the languages they learn.
+:::
 
 ::: {type=project name=Spider github=bensmrs/spider maturity=C reliability=B fieldtesting=B}
 Spider is a multi-protocol, multi-format, multi-threaded resource crawler. You can see it as your regular `wget --spider`, but on steroids, with support for several protocols, content types, schemes, and output formats.
+:::
+
+
+# Future projects
+
+I’ve got some big projects in the pipeline on which I haven’t yet found the time to do much work.
+
+::: {type=project name=Deccert}
+Deccert is a project to build a decentralized, sharded [CERT](https://en.wikipedia.org/wiki/Computer_emergency_response_team) ecosystem between trusted network communities, to share the burden of risk management teams and systems and provide an entry point for smaller players based on the goodwill of larger players.
+:::
+
+::: {type=project name=0TG}
+The Zero Transfer Gateway is a project to build a decentralized, multi-protocol data transfer monitor. If you’re not in the finance or automotive industries, chances are you’ve never heard of such a thing; I’d like to democratize these systems.
+:::
+
+::: {type=project name=Tracer kernminus=}
+I’m not a huge fan of visual programming. However, in some business-critical cases, it can be important to know precisely, visually, where things go wrong, why, and progressively patch code. I am working on an object- and data-oriented visual language with live-patching and A/B testing capabilities called Tracer.
 :::

@@ -9,7 +9,7 @@
 <body tabindex="0">
 <header class="morph-container" title="Hi, it’s Benjamin Somers">Hi, it’s <span class="morph"><span>b</span><span>B</span></span><span>en</span><span class="morph-appear"><span>jamin Somers</span></span></header>
 <nav><a href="index.html">Home</a><div class="header-desc" id="header-desc-home"><div class="background"></div></div><a class="current">Projects</a><div class="header-desc" id="header-desc-projects"><div class="background"><div id="header-desc-projects-background"></div><div id="header-desc-projects-background-2"></div></div><span class="seq-unblur"><span>Dark</span> <span>arts</span><span></span><span></span> <span>and</span> <span>crimes</span> <span>against</span> <span>common</span> <span>sense…</span></span></div><a href="articles.html">Articles</a><div class="header-desc" id="header-desc-articles"><div class="background"></div><span>Random </span><span class="blur">mostly-non-peer-reviewed</span><span> stuf</span><span class="kernminus">f</span></div><a href="photos.html">Photos</a><div class="header-desc" id="header-desc-photos"><div class="background"></div><span>I also like photography!</span><div></div><div></div><div></div></div><a class="right" href="about.html">About me</a><div class="header-desc" id="header-desc-about"><svg height="50" class="curve curved-arrow" width="159"><path stroke-linecap="round" stroke-linejoin="round" d="M154.2,43c1.3-13.2-30.4-24.5-70.7-28.5s-62.8,1.1-80.2,3.1"></path><path stroke-linecap="round" stroke-linejoin="round" class="tip-1" d="M3.4,17.6l16.7,7.8"></path><path stroke-linecap="round" stroke-linejoin="round" class="tip-2" d="M3.4,17.5L17.5,5.3"></path></svg><svg width="90" height="59" class="curve curved-focus"><path class="b" d="m46.91,6.9C-13-5.41-3.61,47.56,24.41,53.75s69.18-3.21,62.05-28.49S41.66-1.23,23.3,7.16"></path></svg></div></nav>
-<section>
+<div class="heading">
 <p>I contribute to many open source projects. On this page, you can find
 a hopefully exhaustive, unsorted presentation of the various crimes I’ve
 committed in these projects.</p>
@@ -21,12 +21,12 @@ href="#resel" class="category">ResEl</a><a href="#caprica"
 class="category">CAPRICA</a><a href="#imt-atlantique"
 class="category">IMT Atlantique</a>
 </p>
-</section>
+</div>
 <section>
 <h1 id="personal-projects">Personal projects</h1>
 <p>In the few hours I have left each week outside work and associative
 activities, I happen to work on a few fun projects of mine.</p>
-<div class="project"><aside><img src="img/0xcafe.png"></aside><div class="content"><h2 id="xcafe">0xCAFE</h2><a class="website github" href="https://github.com/bensmrs/0xCAFE">bensmrs/0xCAFE</a>
+<div class="project"><aside><img src="img/0xcafe.png" alt="0xCAFE"></aside><div class="content"><h2 id="xcafe">0xCAFE</h2><a class="website github" href="https://github.com/bensmrs/0xCAFE">bensmrs/0xCAFE</a>
 <p>Fewer and fewer people carry cash around with them, and at the
 office, begging for money to feed the collective kitty to buy coffee is
 a nightmare. So I developed this little project, linked to <a
@@ -128,13 +128,13 @@ binding.</p>
 added support for low-level, user-defined dynamic operations on virtual
 machines using the QEMU Machine Protocol (QMP).</p>
 </div></div>
-<div class="project"><aside><img src="img/git-cola.png"></aside><div class="content"><h2 id="git-cola">Git Cola</h2><a class="website github" href="https://github.com/git-cola/git-cola">git-cola/git-cola</a>
+<div class="project"><aside><img src="img/git-cola.png" alt="Git Cola"></aside><div class="content"><h2 id="git-cola">Git Cola</h2><a class="website github" href="https://github.com/git-cola/git-cola">git-cola/git-cola</a>
 <p>Git Cola is a graphical interface for Git written in Python. I’ve
 added to Git Cola the ability to manage local file exclusions, an option
 to reset the window layout, the ability to rename stashes, and a dialog
 for consulting Git server responses.</p>
 </div></div>
-<div class="project"><aside><img src="img/linuxcontainers.org.png"></aside><div class="content"><h2 id="linuxcontainers.org">linuxcontainers.org</h2><a class="website github" href="https://github.com/lxc/linuxcontainers.org">lxc/linuxcontainers.org</a>
+<div class="project"><aside><img src="img/linuxcontainers.org.png" alt="linuxcontainers.org"></aside><div class="content"><h2 id="linuxcontainers.org">linuxcontainers.org</h2><a class="website github" href="https://github.com/lxc/linuxcontainers.org">lxc/linuxcontainers.org</a>
 <p><a
 href="https://linuxcontainers.org/"><code>linuxcontainers.org</code></a>
 is the showcase website for a group of projects with the goal of
@@ -143,7 +143,7 @@ technologies. I translated into French the part of the website
 presenting Incus, and made a few improvements in the website
 generator.</p>
 </div></div>
-<div class="project"><aside><img src="img/nextcloud.png"></aside><div class="content"><h2 id="nextcloud">Nextcloud</h2><a class="website github" href="https://github.com/nextcloud/server">nextcloud/server</a><a class="and website" href="https://github.com/nextcloud/files_versions_s3">/files_versions_s3</a>
+<div class="project"><aside><img src="img/nextcloud.png" alt="Nextcloud"></aside><div class="content"><h2 id="nextcloud">Nextcloud</h2><a class="website github" href="https://github.com/nextcloud/server">nextcloud/server</a><a class="and website" href="https://github.com/nextcloud/files_versions_s3">/files_versions_s3</a>
 <p>Nextcloud is the most popular online drive management software. I
 helped add support for the naming and deletion of file versions in
 Nextcloud when using S3-compatible storage backends, using S3 object
@@ -165,13 +165,13 @@ ResEl. It is written in Python, but will soon be rewritten in OCaml. The
 project was launched because of the many limitations of traditional DHCP
 solutions, given the complexity of the ResEl infrastructure.</p>
 <div class="grades"><span class="grade">Maturity<span class="A">A</span></span><span class="grade">Reliability<span class="A">A-</span></span><span class="grade">Field-testing<span class="A">A</span></span></div></div></div>
-<div class="project"><aside><img src="img/resel-latex.png"></aside><div class="content"><h2 id="latex-styles-and-classes">LaTeX styles and classes</h2><a class="website github" href="https://github.com/ResEl-TB/latex">ResEl-TB/latex</a>
+<div class="project"><aside><img src="img/resel-latex.png" alt="LaTeX styles and classes"></aside><div class="content"><h2 id="latex-styles-and-classes">LaTeX styles and classes</h2><a class="website github" href="https://github.com/ResEl-TB/latex">ResEl-TB/latex</a>
 <p>As a result of its activities, the ResEl needs to produce thousands
 of documents every year (invoices, reports, minutes, <em>etc</em>.). I
 designed and implemented the current visual identity for the LaTeX
 documents the association issues on a daily basis.</p>
 <div class="grades"><span class="grade">Maturity<span class="A">A</span></span><span class="grade">Reliability<span class="A">A</span></span><span class="grade">Field-testing<span class="A">A</span></span></div></div></div>
-<div class="project"><aside><img src="img/myresel.png"></aside><div class="content"><h2 id="myresel">myResEl</h2><a class="website" href="https://resel.fr">resel.fr</a><a class="website github" href="https://github.com/ResEl-TB/myresel">ResEl-TB/myresel</a>
+<div class="project"><aside><img src="img/myresel.png" alt="myResEl"></aside><div class="content"><h2 id="myresel">myResEl</h2><a class="website" href="https://resel.fr">resel.fr</a><a class="website github" href="https://github.com/ResEl-TB/myresel">ResEl-TB/myresel</a>
 <p>Both a showcase website for the association and the portal for user
 account management, myResEl is without doubt the most important tool for
 our users. It is based on the <a
@@ -187,14 +187,14 @@ the RADIUS servers of the ResEl. Initially developed in Python, RADAPI
 was rewritten in OCaml for performance and safety reasons. I am the
 initiator of the project and its sole developer.</p>
 <div class="grades"><span class="grade">Maturity<span class="A">A</span></span><span class="grade">Reliability<span class="A">A</span></span><span class="grade">Field-testing<span class="A">A</span></span></div></div></div>
-<div class="project"><aside><img src="img/resel-id.png"></aside><div class="content"><h2 id="resel-id">ResEl ID</h2><a class="website" href="https://sso.resel.fr">sso.resel.fr</a><a class="website github" href="https://github.com/ResEl-TB/cas-overlay">ResEl-TB/cas-overlay</a>
+<div class="project"><aside><img src="img/resel-id.png" alt="ResEl ID"></aside><div class="content"><h2 id="resel-id">ResEl ID</h2><a class="website" href="https://sso.resel.fr">sso.resel.fr</a><a class="website github" href="https://github.com/ResEl-TB/cas-overlay">ResEl-TB/cas-overlay</a>
 <p>ResEl ID is the centralized authentication service of the ResEl. It
 is based on the tried-and-tested <a
 href="https://www.apereo.org/projects/cas">Apereo CAS</a> and enables
 users to log in to our various services with their ResEl account. I am
 responsible for the entire configuration and design of the website.</p>
 <div class="grades"><span class="grade">Maturity<span class="C">C</span></span><span class="grade">Reliability<span class="A">A</span></span><span class="grade">Field-testing<span class="B">B</span></span></div></div></div>
-<div class="project"><aside><img src="img/resel-nsa.png"></aside><div class="content"><h2 id="resel-nsa">ResEl NSA</h2><a class="website github" href="https://github.com/ResEl-TB/resel-nsa">ResEl-TB/resel-nsa</a>
+<div class="project"><aside><img src="img/resel-nsa.png" alt="ResEl NSA"></aside><div class="content"><h2 id="resel-nsa">ResEl NSA</h2><a class="website github" href="https://github.com/ResEl-TB/resel-nsa">ResEl-TB/resel-nsa</a>
 <p>ResEl NSA is the metrics collection and dispatching agent of the
 ResEl. Entirely developed in Bash, it enables the parallel execution of
 monitoring tools and transmits data at regular intervals to a remote <a
@@ -229,7 +229,7 @@ href="https://www.proxmox.com/en/proxmox-virtual-environment">Proxmox
 VE</a> hypervision cluster on <a
 href="https://www.emulab.net/">Emulab</a>.</p>
 <div class="grades"><span class="grade">Maturity<span class="A">A</span></span><span class="grade">Reliability<span class="A">A</span></span><span class="grade">Field-testing<span class="A">A</span></span></div></div></div>
-<div class="project"><aside><img src="img/ontology.png"></aside><div class="content"><h2 id="mitre2owl">mitre2owl</h2><a class="website github" href="https://github.com/CAPRICA-Project/mitre2owl">CAPRICA-Project/mitre2owl</a><a class="and website" href="https://github.com/CAPRICA-Project/CAPEC.owx">/CAPEC.owx</a><a class="and website" href="https://github.com/CAPRICA-Project/CWE.owx">/CWE.owx</a>
+<div class="project"><aside><img src="img/ontology.png" alt="mitre2owl"></aside><div class="content"><h2 id="mitre2owl">mitre2owl</h2><a class="website github" href="https://github.com/CAPRICA-Project/mitre2owl">CAPRICA-Project/mitre2owl</a><a class="and website" href="https://github.com/CAPRICA-Project/CAPEC.owx">/CAPEC.owx</a><a class="and website" href="https://github.com/CAPRICA-Project/CWE.owx">/CWE.owx</a>
 <p><code>mitre2owl</code> is a Python tool for translating <a
 href="https://www.mitre.org/">MITRE</a> XML reference datasets (<a
 href="https://capec.mitre.org/">CAPEC</a>, <a

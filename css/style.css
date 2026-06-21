@@ -320,7 +320,7 @@ h2 {
   font-style: italic;
   padding-bottom: 2px;
 }
-section > aside {
+.heading > aside {
   width: calc(29% - 1em);
   position: absolute;
   right: 0;
@@ -329,12 +329,12 @@ section > aside {
   top: 50%;
   transform: translateY(-50%);
 }
-section {
+section, .heading {
   position: relative;
   margin-top: 35px;
   margin-bottom: 25px;
 }
-section > aside ~ * {
+.heading > aside ~ * {
   width: calc(71% - 1em);
 }
 ul {
@@ -384,7 +384,7 @@ p {
 #header-desc-articles .blur {
   animation: blur 1s ease infinite alternate;
 }
-h1, h2, h3 {
+h1, h2 {
   font-family: var(--serif);
   margin: 0;
 }
@@ -541,69 +541,68 @@ hr.wide::after {
   height: calc(76.55 * var(--spx));
   width: calc(134.33 * var(--spx));
 }
-section.showcase > .ef-50-14, footer.ef-50-14::after {
+section.showcase .ef-50-14, footer.ef-50-14::after {
   background: url(/img/ef-50-14.svg) no-repeat;
   height: calc(52.4 * var(--spx));
   width: calc(63 * var(--spx));
 }
-section.showcase > .ef-80-200-28, footer.ef-80-200-28::after {
+section.showcase .ef-80-200-28, footer.ef-80-200-28::after {
   background: url(/img/ef-80-200-28.svg) no-repeat;
   height: calc(166.9 * var(--spx));
   width: calc(73.2 * var(--spx));
 }
-section.showcase > .ef-100-28, footer.ef-100-28::after {
+section.showcase .ef-100-28, footer.ef-100-28::after {
   background: url(/img/ef-100-28.svg) no-repeat;
   height: calc(111.8 * var(--spx));
   width: calc(66.4 * var(--spx));
 }
-section.showcase > .ef-24-70-28, footer.ef-24-70-28::after {
+section.showcase .ef-24-70-28, footer.ef-24-70-28::after {
   background: url(/img/ef-24-70-28.svg) no-repeat;
   height: calc(102.8 * var(--spx));
   width: calc(76.2 * var(--spx));
 }
-section.showcase > .ef-11-24-40, footer.ef-11-24-40::after {
+section.showcase .ef-11-24-40, footer.ef-11-24-40::after {
   background: url(/img/ef-11-24-40.svg) no-repeat;
   height: calc(120 * var(--spx));
   width: calc(93.4 * var(--spx));
 }
-section.showcase > .ef-500-40, footer.ef-500-40::after {
+section.showcase .ef-500-40, footer.ef-500-40::after {
   background: url(/img/ef-500-40.svg) no-repeat;
   height: calc(342.8 * var(--spx));
   width: calc(125.2 * var(--spx));
 }
-section.showcase > .ef-2x, footer.ef-2x::before {
+section.showcase .ef-2x, footer.ef-2x::before {
   background: url(/img/ef-2x.svg) no-repeat;
   height: calc(57 * var(--spx));
   width: calc(62.4 * var(--spx));
 }
-section.showcase > span {
+section.showcase span {
   display: inline-block;
   position: relative;
 }
-section.showcase > .ef-24-70-28 {
+section.showcase .ef-24-70-28 {
   margin-left: calc(-4 * var(--spx));
 }
-section.showcase > .ef-80-200-28 {
+section.showcase .ef-80-200-28 {
   margin-left: calc(-1 * var(--spx));
 }
-section.showcase > .ef-500-40 {
+section.showcase .ef-500-40 {
   margin-left: calc(-16 * var(--spx));
 }
-section.showcase > .ef-2x {
+section.showcase .ef-2x {
   margin-left: calc(-31 * var(--spx));
 }
 section.showcase {
-  text-align: center;
   --spx: 1px;
 }
-section.showcase > span:not(:last-child) {
+section.showcase span:not(:last-child) {
   margin-right: 16px;
 }
 .eos-5d-mark-iv::after {
   content: "Canon EOS 5D Mark IV";
   margin-top: 4px;
 }
-section.showcase > span::after {
+section.showcase span::after {
   font-size: .6rem;
   position: absolute;
   left: 5%;
@@ -611,6 +610,7 @@ section.showcase > span::after {
   width: 90%;
   top: 50%;
   transform: translateY(-50%);
+  text-align: center;
 }
 section.showcase .ef-50-14::after {
   content: "Canon EF 50mm ƒ/1.4 USM";
@@ -639,10 +639,13 @@ section.showcase .ef-500-40::after {
 .ef-2x::after {
   content: "Canon Extender EF 2× III";
 }
-section.showcase > p {
+section.showcase > p:first-of-type {
   width: 55%;
   position: absolute;
   top: 80px;
+}
+section.showcase > p {
+  text-indent: 0;
 }
 .photo > .about {
   height: 100%;
@@ -957,16 +960,11 @@ section.split {
   overflow: auto;
   margin-top: -2ex;
 }
-h3 {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1em;
-}
 li.half {
   width: 50%;
   float: left;
 }
-section.me > img {
+.me > img {
   width: 200px;
   border-radius: 10px;
   box-shadow: 0 1px 8px -4px #000;
@@ -995,7 +993,7 @@ section.me > img {
   margin-top: 1.5ex;
   font-family: var(--sans);
 }
-section.me {
+.me {
   padding: 0 3em;
   box-sizing: border-box;
 }
@@ -1056,7 +1054,10 @@ section.me {
   border-top: 2px solid #fff2;
   padding-top: 1ex;
 }
-.cvitem > h3 {
+.cvitem > h2 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1em;
   text-align: center;
 }
 .cvitem > ul {
@@ -1171,10 +1172,10 @@ section.split > section.right {
   .photo > .about {
     font-size: .63rem;
   }
-  section.showcase > span:not(:last-child) {
+  section.showcase span:not(:last-child) {
     margin-right: 8px;
   }
-  section.showcase > p {
+  section.showcase > p:first-of-type {
     width: 60%;
   }
   nav .header-desc {
@@ -1235,13 +1236,13 @@ section.split > section.right {
   section.showcase {
     --spx: .85px;
   }
-  section.showcase > span:not(:last-child) {
+  section.showcase span:not(:last-child) {
     margin-right: 7px;
   }
-  section.showcase > span::after {
+  section.showcase span::after {
     font-size: .55rem;
   }
-  section.showcase > p {
+  section.showcase > p:first-of-type {
     top: 50px;
   }
   nav .header-desc {
@@ -1326,13 +1327,13 @@ section.split > section.right {
   section.showcase {
     --spx: .73px;
   }
-  section.showcase > span:not(:last-child) {
+  section.showcase span:not(:last-child) {
     margin-right: 4px;
   }
-  section.showcase > span::after {
+  section.showcase span::after {
     font-size: .45rem;
   }
-  section.showcase > p {
+  section.showcase > p:first-of-type {
     width: 70%;
     top: 30px;
   }
@@ -1408,13 +1409,13 @@ section.split > section.right {
     list-style-position: inside;
     font-size: .9em;
   }
-  section.me > div > h1 {
+  .me > div > h1 {
     margin-bottom: 1px;
   }
-  section.me {
+  .me {
     padding: 0 2em;
   }
-  section.me > div {
+  .me > div {
     width: calc(100% - 200px - 6em);
   }
 }
@@ -1445,13 +1446,13 @@ section.split > section.right {
   section.showcase {
     --spx: .58px;
   }
-  section.showcase > span:not(:last-child) {
+  section.showcase span:not(:last-child) {
     margin-right: 3px;
   }
-  section.showcase > span::after {
+  section.showcase span::after {
     font-size: .35rem;
   }
-  section.showcase > span {
+  section.showcase span {
     margin-top: 60px;
   }
   nav .header-desc {
@@ -1509,13 +1510,13 @@ section.split > section.right {
   section.split {
     font-size: .85em;
   }
-  section.me {
+  .me {
     padding: 0 1em;
   }
-  section.me > img {
+  .me > img {
     width: 150px;
   }
-  section.me > div {
+  .me > div {
     width: calc(100% - 150px - 4em);
   }
   .me > div > ul {
@@ -1545,20 +1546,20 @@ section.split > section.right {
   section.showcase {
     --spx: .45px;
   }
-  section.showcase > span:not(:last-child) {
+  section.showcase span:not(:last-child) {
     margin-right: 3px;
   }
-  section.showcase > span::after {
+  section.showcase span::after {
     font-size: 0;
   }
-  section.showcase > span {
+  section.showcase span {
     margin-top: -15px;
   }
-  section.showcase > p {
+  section.showcase > p:first-of-type {
     width: 100%;
     position: initial;
   }
-  section.showcase > .ef-2x {
+  section.showcase .ef-2x {
     left: 0;
     position: absolute;
     margin-left: 12px;
@@ -1609,11 +1610,11 @@ section.split > section.right {
   .cvitem > .situation > .location.mask {
     background: linear-gradient(to right, #2220, #222 1.75em);
   }
-  section.me > img {
+  .me > img {
     display: block;
     margin-left: calc(50% - 75px);
   }
-  section.me > div {
+  .me > div {
     width: 100%;
     margin-left: 0;
     position: relative;

@@ -4,7 +4,7 @@ lang: en
 p-index: true
 ---
 
-<section>
+::: {.heading}
 <aside>
 ## You can also find me on…
 - [GitHub](https://github.com/bensmrs)
@@ -12,8 +12,7 @@ p-index: true
 - [Twitter](https://twitter.com/ben_smrs)
 </aside>
 This is the static JavaScript-free personal website of a {{age}} yo French nerd. I love making atypical stuff, complaining about the bad kerning of documents and shaking my head to weirdly dressed people screaming into a microphone. I specialize in systems engineering, compiler design and IT risk analysis. Oh, and I’m a doctor!
-
-</section>
+:::
 
 # 6 of my projects
 

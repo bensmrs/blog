@@ -6,7 +6,7 @@ function Div(el)
   local blocks = pandoc.List()
   prelude = '<div class="project">'
   if el.attributes.image then
-    prelude = prelude .. '<aside><img src="img/' .. el.attributes.image .. '"></aside>'
+    prelude = prelude .. '<aside><img src="img/' .. el.attributes.image .. '" alt="' .. el.attributes.name .. '"></aside>'
   end
 
   prelude = prelude .. '<div class="content"><h2 id="' .. pandoc.structure.unique_identifier(el.attributes.name) .. '"'

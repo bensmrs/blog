@@ -4,11 +4,11 @@ lang: en
 p-projects: true
 ---
 
-<section>
+::: {.heading}
 I contribute to many open source projects. On this page, you can find a hopefully exhaustive, unsorted presentation of the various crimes I’ve committed in these projects.
 
 <p class="categories">[Personal projects](#personal-projects){.category}[Future projects](#future-projects){.category}[Modest contributions](#modest-contributions){.category}[ResEl](#resel){.category}[CAPRICA](#caprica){.category}[IMT Atlantique](#imt-atlantique){.category}</p>
-</section>
+:::
 
 # Personal projects
 

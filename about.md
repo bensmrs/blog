@@ -4,11 +4,11 @@ lang: en
 p-about: true
 ---
 
-<section class="me">
+::: {.heading .me}
 ``` {=html}
-<img src="pic/me.jpg">
+<img src="pic/me.jpg" alt="Me">
 ```
-
+<section>
 # Me
 
 [Benjamin Somers]{.name}[January 14, 1998]{.dob}<div>Research Engineer</div><span>[ben@federez.net](mailto:ben@federez.net) / [bensmrs@resel.fr](mailto:bensmrs@resel.fr)</span><div>Brest, France</div>
@@ -18,6 +18,7 @@ p-about: true
 - [Twitter](https://twitter.com/ben_smrs)
 <!-- section:close -->
 </section>
+:::
 
 # A few words before the boring stuff
 
@@ -33,7 +34,7 @@ My ideal work day starts not too early in the morning with a bowl of tea, and in
 []{.cvitem .skip style="--skip:140.5px;--med-skip:131px;--small-skip:122.5px;"}
 <h1>Education</h1>
 ::: {type=cvitem image=arkea.png company="Crédit Mutuel Arkéa – IMT Atlantique" title="PhD student" location="Brest (FR)" period="Jan. 2021 – Mar. 2024" height=151 medheight=140 smallheight=129 twocols= mask=}
-### “IT infrastructure modeling for risk identification and prevention”
+## “IT infrastructure modeling for risk identification and prevention”
 
 - Development of an infrastructure description language
 - Study of safety and security properties of heterogeneous models
@@ -140,31 +141,31 @@ My ideal work day starts not too early in the morning with a bowl of tea, and in
 - English (C1)
 - Norwegian (B1+, a bit rusty)
 
-### I also used to learn
+## I also used to learn
 
 - German (was B2/C1 a long time ago; should come back after a month in Germany)
 - Japanese (was A2)
 - Czech (was A1)
 
-### I want to learn
+## I want to learn
 
 <ul><li>Danish and Swedish (should be easier after I’m C1 in Norwegian)</li><li class="half">Arabic</li><li class="half">Breton</li><li class="half">Spanish</li><li class="half">Russian</li><li class="half">Chinese</li></ul>
 
 # Computer languages {.right}
 
-### “Desktop”
+## “Desktop”
 
 <ul><li class="half">OCaml</li><li class="half">C++</li><li class="half">Python</li><li class="half">Java</li><li class="half">Bash</li><li class="half">C#</li><li>Anything I don’t pout about, really…</li></ul>
 
-### “Web”
+## “Web”
 
 <ul><li class="half">HTML5/CSS3</li><li class="half">JavaScript</li><li class="half">PHP</li></ul>
 
-### Queries
+## Queries
 
 <ul><li class="half">SQL</li><li class="half">WarpScript</li><li class="half">XPath</li><li class="half">SPARQL</li></ul>
 
-### I also have a pretty nice ranking on RegEx Crossword ([player #41003](https://regexcrossword.com/players/41003))
+*I also have a pretty nice ranking on RegEx Crossword ([player #41003](https://regexcrossword.com/players/41003))*
 
 <!-- section:close -->
 </section>

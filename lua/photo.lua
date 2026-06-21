@@ -4,7 +4,7 @@ function Div(el)
   end
 
   local blocks = pandoc.List()
-  prelude = '<div class="photo"><img src="pic/' .. el.attributes.image .. '"><div class="about'
+  prelude = '<div class="photo"><img src="pic/' .. el.attributes.image .. '" alt="' .. el.attributes.location .. ', ' .. el.attributes.date .. '"><div class="about'
   if el.attributes.narrow then
     prelude = prelude .. " narrow"
   end

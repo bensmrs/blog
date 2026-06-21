@@ -4,11 +4,11 @@ lang: en
 p-photos: true
 ---
 
-<section>
+::: {.heading}
 I mainly take photos of people at events, but they are not meant for public diffusion. You can thus find on this page some of my publishable photos. Please contact me if you wish to reuse any of them.
 
-<p class="categories">[At sea](#at-sea){.category .accent-1}[Water](#water){.category .accent-1}[Birds](#birds){.category .accent-1}[Animals](#animals){.category .accent-2}[Cliffs](#cliffs){.category .accent-2}[Villages](#villages){.category .accent-2}[Monuments](#monuments){.category .accent-3}[Above](#above){.category .accent-3}[Out there](#out-there){.category .accent-3}[Free expression](#free-expression){.category .accent-3}[Rust](#rust){.category .accent-3}[Desolate landscapes](#desolate-landscapes){.category .accent-3}[Ruins](#ruins){.category}[Urban environments](#urban-environments){.category}[Illumination](#illumination){.category}
-</section>
+<p class="categories">[At sea](#at-sea){.category .accent-1}[Water](#water){.category .accent-1}[Birds](#birds){.category .accent-1}[Animals](#animals){.category .accent-2}[Cliffs](#cliffs){.category .accent-2}[Villages](#villages){.category .accent-2}[Monuments](#monuments){.category .accent-3}[Above](#above){.category .accent-3}[Out there](#out-there){.category .accent-3}[Free expression](#free-expression){.category .accent-3}[Rust](#rust){.category .accent-3}[Desolate landscapes](#desolate-landscapes){.category .accent-3}[Ruins](#ruins){.category}[Urban environments](#urban-environments){.category}[Illumination](#illumination){.category}</p>
+:::
 
 # My gear {.showcase}
 
@@ -491,3 +491,6 @@ Croix de Suchot
 National Monument
 :::
 :::
+
+<!-- section:close -->
+</section>

@@ -25,7 +25,7 @@ function Div(el)
     end
   end
 
-  prelude = prelude .. '"><img src="img/' .. el.attributes.image .. '"><div class="position"><span class="company">' .. el.attributes.company .. "</span>"
+  prelude = prelude .. '"><img src="img/' .. el.attributes.image .. '" alt="' .. el.attributes.company .. '"><div class="position"><span class="company">' .. el.attributes.company .. "</span>"
   if el.attributes.subcompany then
     prelude = prelude .. '<span class="subcompany">' .. el.attributes.subcompany .. "</span>"
   end

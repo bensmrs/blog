@@ -15,8 +15,6 @@ p-about: true
 
 - [GitHub](https://github.com/bensmrs)
 - [LinkedIn](https://www.linkedin.com/in/bensmrs/)
-- [Twitter](https://twitter.com/ben_smrs)
-<!-- section:close -->
 </section>
 :::
 
@@ -26,7 +24,7 @@ I was born in 1998 in Arles, Southern France, and have been constantly moving aw
 
 Over the years, I’ve developed a great passion for languages, whether “natural” or “for computers”, and how they influence the way we think (linguistic relativity, Sapir–Whorf hypothesis). On top of this came a keen interest in the design of intricate systems, with a great appreciation for the beauty of simple solutions to complex problems, and complex optimizations to answer seemingly simple problems. Don’t get me wrong, I also love unnecessarily complex solutions to ridiculously simple problems, and I relish the disabused look on my friends’ faces as they throw a shy, slightly anxious "But why?!" when I show them my latest horrors.
 
-My ideal work day starts not too early in the morning with a bowl of tea, and includes a good hour of scientific and technical watch. I do plenty of OCaml and listen to music for at least 6 hours as the day passes. It continues well into the night with my friends, is cut short by a critical IT incident in one of my associations, which we resolve in a bar at 2am amidst inebriated flashes of lucidity, and ends at around 3:30am. Fortunately for my sleep, this ideal day doesn’t happen that often! I’m easy going once you get past the typical obstacles of dealing with a French person. I’m extremely loyal to the people around me, and I believe that my atypical life experiences give a fresh perspective to things; humble, without however bowing down to the *statu quo*.
+I’m a strong believer in free and open source software and its values, and am involved in several FLOSS communities, notably Debian and Linux Containers. I have a bias against the social and ecological impacts of LLMs, to both of which I feel like a powerless witness, and think that regularly using these tools implies understanding and approving those impacts. I’m easy going once you get past the typical obstacles of dealing with a French person. I’m extremely loyal to the people around me, and I believe that my atypical life experiences give a fresh perspective to things.
 
 <!-- section:close -->
 <section class="split">

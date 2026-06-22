@@ -881,7 +881,7 @@ a.github::before {
 }
 .project::before {
   content: "";
-  background: radial-gradient(.6em at -.35em 50%, #fff0 .425em, #fff .475em .525em, #fff0 .575em) .2em 0/.45em 1.3em, radial-gradient(.6em at .85em 50%, #fff0 .425em, #fff .475em .525em, #fff0 .575em) .25em .625em/.45em 1.3em;
+  background: radial-gradient(1em at -.4em 50%, #fff0 .45em, #fff5 .45em .55em, #fff0 .55em) .22em 0/.45em 1.1em, radial-gradient(1em at .85em 50%, #fff0 .45em, #fff5 .45em .55em, #fff0 .55em) .22em .55em/.45em 1.1em;
   height: 100%;
   width: .9em;
   display: block;

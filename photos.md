@@ -7,7 +7,7 @@ p-photos: true
 ::: {.heading}
 I mainly take photos of people at events, but they are not meant for public diffusion. You can thus find on this page some of my publishable photos. Please contact me if you wish to reuse any of them.
 
-<p class="categories">[At sea](#at-sea){.category .accent-1}[Water](#water){.category .accent-1}[Birds](#birds){.category .accent-1}[Animals](#animals){.category .accent-2}[Cliffs](#cliffs){.category .accent-2}[Villages](#villages){.category .accent-2}[Monuments](#monuments){.category .accent-3}[Above](#above){.category .accent-3}[Out there](#out-there){.category .accent-3}[Free expression](#free-expression){.category .accent-3}[Rust](#rust){.category .accent-3}[Desolate landscapes](#desolate-landscapes){.category .accent-3}[Ruins](#ruins){.category}[Urban environments](#urban-environments){.category}[Illumination](#illumination){.category}</p>
+<p class="categories">[At sea](#at-sea){.category .accent-1}[Maritime infrastructure](#maritime-infrastructure){.category .accent-1}[Water](#water){.category .accent-1}[Birds](#birds){.category .accent-1}[Animals](#animals){.category .accent-2}[Cliffs](#cliffs){.category .accent-2}[Villages](#villages){.category .accent-2}[Monuments](#monuments){.category .accent-3}[Above](#above){.category .accent-3}[Out there](#out-there){.category .accent-3}[Free expression](#free-expression){.category .accent-3}[Rust](#rust){.category .accent-3}[Desolate landscapes](#desolate-landscapes){.category .accent-3}[Ruins](#ruins){.category}[Urban environments](#urban-environments){.category}[Colorful ceilings](#colorful-ceilings){.category}[Illumination](#illumination){.category}</p>
 :::
 
 # My gear {.showcase}
@@ -38,6 +38,28 @@ Rescue of a damaged trimaran off Ploumanac’h harbour
 
 ::: {type=photo image=2023-07-29-13.jpg date="July 29, 2023" location="Ouessant, France" rig="eos-5d-mark-iv ef-80-200-28"}
 Boats in the harbour
+:::
+:::
+
+# Maritime infrastructure
+
+::: {.photos}
+::: {type=photo image=2026-05-08-09.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Container cranes and ships
+:::
+:::
+
+::: {.photos .layout-32-32o32}
+::: {type=photo image=2026-05-08-06.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Container cranes and ship
+:::
+
+::: {type=photo image=2026-05-08-07.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Container cranes and ship
+:::
+
+::: {type=photo image=2026-05-08-10.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Dry dock
 :::
 :::
 
@@ -88,6 +110,16 @@ Small waterfall at the Cascades du Hérisson
 
 ::: {type=photo image=2023-08-21-04.jpg date="August 21, 2023" location="Les Planches-en-Montagne, France" rig="eos-5d-mark-iv ef-11-24-40"}
 Water stream at the Gorges de la Langouette
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-07-25-02.jpg date="July 25, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+해동용궁사 (Haedong Yonggungsa Temple)
+:::
+
+::: {type=photo image=2024-07-25-05.jpg date="July 25, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+Breakwaters
 :::
 :::
 
@@ -400,6 +432,16 @@ Restaurant des Grottes
 :::
 :::
 
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-04-20-04.jpg date="April 20, 2024" location="Grignan, France" rig="eos-5d-mark-iv ef-24-70-28"}
+Grignan, from its castle
+:::
+
+::: {type=photo image=2025-08-24-04.jpg date="August 24, 2025" location="Oravský Podzámok, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Oravský Podzámok, from its castle
+:::
+:::
+
 <!-- section:close -->
 </section>
 <hr class="wide">
@@ -437,6 +479,70 @@ Dresden Academy of Fine Arts and its “Lemon Squeezer” glass dome
 :::
 :::
 
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-04-20-02.jpg date="April 20, 2024" location="Grignan, France" rig="eos-5d-mark-iv ef-11-24-40"}
+Castle of Grignan
+:::
+
+::: {type=photo image=2024-07-18-01.jpg date="July 18, 2024" location="Brest, France" rig="eos-5d-mark-iv ef-50-14"}
+Tour Tanguy
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-07-25-01.jpg date="July 25, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+해동용궁사 (Haedong Yonggungsa Temple) gate
+:::
+
+::: {type=photo image=2024-07-31-02.jpg date="July 31, 2024" location="경주 (Gyeongju), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+연화교 (Yeonhwagyo, Lotus Flower Bridge) and 칠보교 (Chilbogyo, Seven Treasures Bridge) leading to 안양문 (Anyangmun, Peace Enhancing Gate), at 불국사 (Bulguksa Temple)
+:::
+:::
+
+::: {.photos .layout-32o32-32}
+::: {type=photo image=2024-07-31-03.jpg date="July 31, 2024" location="경주 (Gyeongju), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+대웅전 (Daeungjeon, main hall) at 불국사 (Bulguksa Temple)
+:::
+
+::: {type=photo image=2024-07-31-04.jpg date="July 31, 2024" location="경주 (Gyeongju), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+불국사 (Bulguksa Temple)
+:::
+
+::: {type=photo image=2024-07-31-06.jpg date="July 31, 2024" location="경주 (Gyeongju), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+불국사 (Bulguksa Temple)
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-08-23-01.jpg date="August 23, 2025" location="Košice, Slovakia" rig="eos-5d-mark-iv ef-50-14"}
+Dóm svätej Alžbety (Saint Elizabeth Cathedral)
+:::
+
+::: {type=photo image=2025-08-23-06.jpg date="August 23, 2025" location="Košice, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Dóm svätej Alžbety (Saint Elizabeth Cathedral) roof
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-08-25-01.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Bratislava Castle staircase
+:::
+
+::: {type=photo image=2025-08-25-02.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Bratislava Castle staircase
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-08-25-04.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Bratislava Castle
+:::
+
+::: {type=photo image=2025-08-25-17.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Octahedral Body
+:::
+:::
+
 # Above
 
 ::: {.photos .layout-32o32-32}
@@ -470,6 +576,16 @@ Saint Pierre Cathedral’s spire
 
 ::: {type=photo image=2023-09-02-01.jpg date="September 2, 2023" location="Dresden, Germany" rig="eos-5d-mark-iv ef-50-14"}
 S[t]{.sup} Martin Garrison Church, from the Military Museum
+:::
+:::
+
+::: {.photos .layout-32-11}
+::: {type=photo image=2024-04-20-03.jpg date="April 20, 2024" location="Grignan, France" rig="eos-5d-mark-iv ef-24-70-28"}
+Grignan, from its castle
+:::
+
+::: {type=photo image=2025-08-25-16.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Katedrála svätého Martina (Saint Martin’s Cathedral)
 :::
 :::
 
@@ -576,6 +692,58 @@ Villa des tempêtes
 :::
 :::
 
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-08-22-04.jpg date="August 22, 2024" location="Ribeauvillé, France" rig="eos-5d-mark-iv ef-24-70-28"}
+Château du Girsberg
+:::
+
+::: {type=photo image=2024-08-22-05.jpg date="August 22, 2024" location="Ribeauvillé, France" rig="eos-5d-mark-iv ef-24-70-28"}
+Château de Saint-Ulrich
+:::
+:::
+
+::: {.photos .layout-32o32-32}
+::: {type=photo image=2025-08-24-02.jpg date="August 24, 2025" location="Spišské Podhradie, Slovakia" rig="eos-5d-mark-iv ef-24-70-28" narrow=}
+Spišské Podhradie, seen from Spiš Castle
+:::
+
+::: {type=photo image=2025-08-24-01.jpg date="August 24, 2025" location="Spišské Podhradie, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Spiš Castle
+:::
+
+::: {type=photo image=2025-08-24-03.jpg date="August 24, 2025" location="Spišské Podhradie, Slovakia" rig="eos-5d-mark-iv ef-24-70-28" narrow=}
+Spiš Castle
+:::
+:::
+
+::: {.photos .layout-32-32o32}
+::: {type=photo image=2025-08-31-01.jpg date="August 31, 2025" location="Oppenau, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Kloster Allerheiligen (All Saints’ Abbey)
+:::
+
+::: {type=photo image=2025-08-31-02.jpg date="August 31, 2025" location="Oppenau, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Kloster Allerheiligen (All Saints’ Abbey)
+:::
+
+::: {type=photo image=2025-08-31-03.jpg date="August 31, 2025" location="Oberkirch, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Schauenburg
+:::
+:::
+
+::: {.photos .layout-32o32-32}
+::: {type=photo image=2025-09-03-02.jpg date="September 3, 2025" location="Baden-Baden, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Schloss Hohenbaden (Hohenbaden Castle)
+:::
+
+::: {type=photo image=2025-09-03-01.jpg date="September 3, 2025" location="Baden-Baden, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Schloss Hohenbaden (Hohenbaden Castle)
+:::
+
+::: {type=photo image=2025-09-03-03.jpg date="September 3, 2025" location="Baden-Baden, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Schloss Hohenbaden (Hohenbaden Castle)
+:::
+:::
+
 # Urban environments
 
 ::: {.photos .layout-11-32}
@@ -599,6 +767,28 @@ Traditional Swiss landscape
 
 ::: {type=photo image=2023-08-22-04.jpg date="August 22, 2023" location="Genève, Switzerland" rig="eos-5d-mark-iv ef-11-24-40"}
 Genève, seen from the Saint Pierre Cathedral
+:::
+:::
+
+# Colorful ceilings
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-07-31-05.jpg date="July 31, 2024" location="경주 (Gyeongju), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+Lotus lanterns at 불국사 (Bulguksa Temple)
+:::
+
+::: {type=photo image=2024-07-31-07.jpg date="July 31, 2024" location="경주 (Gyeongju), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+Paper lanterns at 불국사 (Bulguksa Temple)
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-07-31-08.jpg date="July 31, 2024" location="경주 (Gyeongju), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+Paper lanterns at 불국사 (Bulguksa Temple)
+:::
+
+::: {type=photo image=2025-08-25-14.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Dáždniková ulica (umbrella street), a seasonal installation with a new design each year since 2018
 :::
 :::
 

@@ -93,7 +93,7 @@ Water stream at the Gorges de la Langouette
 
 # Birds
 
-::: {.photos .layout-11-32}
+::: {.photos .layout-32-11}
 ::: {type=photo image=2022-08-07-01.jpg date="August 7, 2022" location="Brest, France" rig="eos-5d-mark-iv ef-80-200-28"}
 Young seagulls on a roof
 :::
@@ -129,7 +129,7 @@ Oystercatcher flying
 
 ::: {.photos .layout-32-32}
 ::: {type=photo image=2023-07-29-07.jpg date="July 29, 2023" location="Ouessant, France" rig="eos-5d-mark-iv ef-80-200-28"}
-Cormorant on a rock
+European shag on a rock
 :::
 
 ::: {type=photo image=2023-07-30-03.jpg date="July 30, 2023" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
@@ -147,6 +147,132 @@ Northern gannets flying
 :::
 :::
 
+::: {.photos .layout-32-32o32}
+::: {type=photo image=2023-12-29-01.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40"}
+Grey heron on a tree
+:::
+
+::: {type=photo image=2023-12-29-02.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40" dnarrow=}
+Grey heron on a tree
+:::
+
+::: {type=photo image=2023-12-29-03.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40" rnarrow=}
+Grey heron on a tree
+:::
+:::
+
+::: {.photos .layout-32o32-11}
+::: {type=photo image=2023-12-29-13.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Grey heron on a roof
+:::
+
+::: {type=photo image=2023-12-29-04.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Grey heron on a tree
+:::
+
+::: {type=photo image=2023-12-29-20.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Grey heron on a tree
+:::
+:::
+
+::: {.photos .layout-32-11o11}
+::: {type=photo image=2023-12-29-05.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Greater flamingo in a pond
+:::
+
+::: {type=photo image=2023-12-29-06.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40" narrow= rnarrow=}
+Greater flamingo in a pond
+:::
+
+::: {type=photo image=2023-12-29-07.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40" narrow= rnarrow=}
+Greater flamingo in a pond
+:::
+:::
+
+::: {.photos .layout-23-32}
+::: {type=photo image=2023-12-29-11.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40" rnarrow=}
+Greater flamingo in a pond
+:::
+
+::: {type=photo image=2023-12-29-10.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40"}
+Greater flamingo in a pond
+:::
+:::
+
+::: {.photos .layout-32-11}
+::: {type=photo image=2023-12-29-16.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Greater flamingo in a pond
+:::
+
+::: {type=photo image=2023-12-29-19.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Greater flamingo in a pond
+:::
+:::
+
+::: {.photos .layout-23-32}
+::: {type=photo image=2023-12-29-12.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40"}
+White stork in front of greater flamingoes
+:::
+
+::: {type=photo image=2023-12-29-18.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40" rnarrow=}
+Little egret in front of a greater flamingo
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2023-12-29-08.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40"}
+White stork
+:::
+
+::: {type=photo image=2023-12-29-09.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-500-40"}
+White stork
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2023-12-29-15.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Little egret in a pond
+:::
+
+::: {type=photo image=2023-12-29-17.jpg date="December 29, 2023" location="Pont de Gau, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Little egret in a pond
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-04-18-01.jpg date="April 18, 2025" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Atlantic puffins
+:::
+
+::: {type=photo image=2025-04-18-06.jpg date="April 18, 2025" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Atlantic puffin
+:::
+:::
+
+::: {.photos .layout-32-11o11}
+::: {type=photo image=2025-04-18-07.jpg date="April 18, 2025" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Razorbill
+:::
+
+::: {type=photo image=2025-04-18-03.jpg date="April 18, 2025" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40" dnarrow= rnarrow=}
+Razorbill
+:::
+
+::: {type=photo image=2025-04-18-04.jpg date="April 18, 2025" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40" dnarrow= rnarrow=}
+Razorbill
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-04-18-08.jpg date="April 18, 2025" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+European shag
+:::
+
+::: {type=photo image=2025-04-18-09.jpg date="April 18, 2025" location="Île Rouzic, France" rig="eos-5d-mark-iv ef-2x ef-500-40"}
+Razorbill
+:::
+:::
+
 <!-- section:close -->
 </section>
 <hr class="wide">
@@ -154,17 +280,23 @@ Northern gannets flying
 
 # Animals
 
-::: {.photos .layout-11-32o32}
+::: {.photos .layout-11-32}
 ::: {type=photo image=2023-08-21-01.jpg date="August 21, 2023" location="Prémanon, France" rig="eos-5d-mark-iv ef-500-40"}
-Cow in the grass
-:::
-
-::: {type=photo image=2023-08-21-03.jpg date="August 21, 2023" location="Prémanon, France" rig="eos-5d-mark-iv ef-500-40"}
 Cow in the grass
 :::
 
 ::: {type=photo image=2023-08-21-02.jpg date="August 21, 2023" location="Prémanon, France" rig="eos-5d-mark-iv ef-500-40"}
 Cow in the grass
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2023-08-21-03.jpg date="August 21, 2023" location="Prémanon, France" rig="eos-5d-mark-iv ef-500-40"}
+Cow in the grass
+:::
+
+::: {type=photo image=2024-08-21-05.jpg date="August 21, 2024" location="Plainfaing, France" rig="eos-5d-mark-iv ef-24-70-28"}
+Cows walking in the grass
 :::
 :::
 
@@ -403,7 +535,7 @@ Grotte des Moidons
 :::
 :::
 
-::: {.photos .layout-12-23}
+::: {.photos .layout-21-32}
 ::: {type=photo image=2023-08-25-03.jpg date="August 25, 2023" location="Molain, France" rig="eos-5d-mark-iv ef-24-70-28"}
 Grotte des Moidons (rotated)
 :::
@@ -413,7 +545,7 @@ Grotte des Moidons
 :::
 :::
 
-::: {.photos .layout-23-12}
+::: {.photos .layout-32-21}
 ::: {type=photo image=2023-08-25-06.jpg date="August 25, 2023" location="Molain, France" rig="eos-5d-mark-iv ef-24-70-28"}
 Grotte des Moidons
 :::

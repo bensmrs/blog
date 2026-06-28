@@ -455,13 +455,10 @@ body > section.wide {
 .photos.layout-32-32 > * {
   height: calc(336 * var(--px));
 }
-.photos > :nth-child(1) {
+.photos > :nth-child(1), .photos.layout-11o11-32 > :nth-child(3), .photos.layout-32o32-11 > :nth-child(3) {
   float: left;
 }
-.photos > :nth-child(2) {
-  float: right;
-}
-.photos.layout-23-11o32-23 > :nth-child(3) {
+.photos > :nth-child(2), .photos.layout-23-11o32-23 > :nth-child(3), .photos.layout-23-32o32 > :nth-child(3), .photos.layout-11-32o32 > :nth-child(3), .photos.layout-32-11o11 > :nth-child(3), .photos.layout-11-32o32 > :nth-child(3), .photos.layout-32-32o32 > :nth-child(3) {
   float: right;
 }
 .photos.layout-23-32o32 > :nth-child(1), .photos.layout-32o32-23 > :nth-child(2) {
@@ -470,10 +467,7 @@ body > section.wide {
 .photos.layout-23-32o32 > *, .photos.layout-32o32-23 > * {
   height: calc(348 * var(--px));
 }
-.photos.layout-23-32o32 > :nth-child(3) {
-  float: right;
-}
-.photos.layout-12-23 > *, .photos.layout-23-12 > * {
+.photos.layout-21-32 > *, .photos.layout-32-21 > * {
   height: calc(291 * var(--px));
 }
 .photos.layout-11-32o32 > * {
@@ -482,26 +476,20 @@ body > section.wide {
 .photos.layout-11-32o32 > :nth-child(1) {
   height: calc(574 * var(--px));
 }
-.photos.layout-11-32o32 > :nth-child(3) {
-  float: right;
-}
 .photos.layout-11o11-32 > *, .photos.layout-32-11o11 > * {
   height: calc(246 * var(--px));
 }
 .photos.layout-11o11-32 > :nth-child(2), .photos.layout-32-11o11 > :nth-child(1) {
   height: calc(502 * var(--px));
 }
-.photos.layout-11o11-32 > :nth-child(3) {
-  float: left;
-}
-.photos.layout-32-11o11 > :nth-child(3) {
-  float: right;
-}
 .photos.layout-32-23 > *, .photos.layout-23-32 > * {
   height: calc(458 * var(--px));
 }
-.photos.layout-32-32o32 > :nth-child(3) {
-  float: right;
+.photos.layout-32o32-11 > *, .photos.layout-11-32o32 > * {
+  height: calc(282 * var(--px));
+}
+.photos.layout-32o32-11 > :nth-child(2), .photos.layout-11-32o32 > :nth-child(1) {
+  height: calc(574 * var(--px));
 }
 .accent-1 {
   background: var(--accent-1);

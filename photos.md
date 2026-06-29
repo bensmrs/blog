@@ -7,7 +7,7 @@ p-photos: true
 ::: {.heading}
 I mainly take photos of people at events, but they are not meant for public diffusion. You can thus find on this page some of my publishable photos. Please contact me if you wish to reuse any of them.
 
-<p class="categories">[At sea](#at-sea){.category .accent-1}[Maritime infrastructure](#maritime-infrastructure){.category .accent-1}[Water](#water){.category .accent-1}[Birds](#birds){.category .accent-1}[Animals](#animals){.category .accent-2}[Cliffs](#cliffs){.category .accent-2}[Villages](#villages){.category .accent-2}[Monuments](#monuments){.category .accent-3}[Above](#above){.category .accent-3}[Out there](#out-there){.category .accent-3}[Free expression](#free-expression){.category .accent-3}[Rust](#rust){.category .accent-3}[Desolate landscapes](#desolate-landscapes){.category .accent-3}[Ruins](#ruins){.category}[Urban environments](#urban-environments){.category}[Colorful ceilings](#colorful-ceilings){.category}[Illumination](#illumination){.category}</p>
+<p class="categories">[At sea](#at-sea){.category .accent-1}[Waterways](#waterways){.category .accent-1}[Maritime infrastructure](#maritime-infrastructure){.category .accent-1}[Water](#water){.category .accent-1}[Birds](#birds){.category .accent-1}[Animals](#animals){.category .accent-2}[Cliffs](#cliffs){.category .accent-2}[Villages](#villages){.category .accent-2}[Monuments](#monuments){.category .accent-3}[Above](#above){.category .accent-3}[Out there](#out-there){.category .accent-3}[Free expression](#free-expression){.category .accent-3}[Rust](#rust){.category .accent-3}[Desolate landscapes](#desolate-landscapes){.category .accent-3}[Ruins](#ruins){.category}[Urban environments](#urban-environments){.category}[Colorful ceilings](#colorful-ceilings){.category}[Illumination](#illumination){.category}</p>
 :::
 
 # My gear {.showcase}
@@ -38,6 +38,84 @@ Rescue of a damaged trimaran off Ploumanac’h harbour
 
 ::: {type=photo image=2023-07-29-13.jpg date="July 29, 2023" location="Ouessant, France" rig="eos-5d-mark-iv ef-80-200-28"}
 Boats in the harbour
+:::
+:::
+
+# Waterways
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-07-18-02.jpg date="July 18, 2024" location="Brest, France" rig="eos-5d-mark-iv ef-11-24-40"}
+Pont de Recouvrance
+:::
+
+::: {type=photo image=2024-07-18-03.jpg date="July 18, 2024" location="Brest, France" rig="eos-5d-mark-iv ef-11-24-40"}
+Penfeld river
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-07-25-03.jpg date="July 25, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-11-24-40"}
+청사포 (Cheongsapo) port
+:::
+
+::: {type=photo image=2024-07-25-04.jpg date="July 25, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-50-14"}
+청사포 (Cheongsapo) lighthouse
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2024-08-21-01.jpg date="August 21, 2024" location="Gérardmer, France" rig="eos-5d-mark-iv ef-24-70-28"}
+Lac de Gérardmer
+:::
+
+::: {type=photo image=2024-08-22-01.jpg date="August 22, 2024" location="Colmar, France" rig="eos-5d-mark-iv ef-11-24-40"}
+Lauch river
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-08-25-07.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Danube river
+:::
+
+::: {type=photo image=2025-08-25-09.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Danube river
+:::
+:::
+
+::: {.photos}
+::: {type=photo image=2025-08-25-10.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Danube river
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-09-29-01.jpg date="September 29, 2025" location="Dinan, France" rig="eos-5d-mark-iv ef-11-24-40"}
+Rance river
+:::
+
+::: {type=photo image=2025-09-29-02.jpg date="September 29, 2025" location="Dinan, France" rig="eos-5d-mark-iv ef-11-24-40"}
+Rance river
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2026-05-08-01.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Elbe river
+:::
+
+::: {type=photo image=2026-05-08-03.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Elbe river
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2026-05-08-04.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Elbe river
+:::
+
+::: {type=photo image=2026-05-08-11.jpg date="May 8, 2026" location="Hamburg, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Elbe river
 :::
 :::
 
@@ -767,6 +845,72 @@ Traditional Swiss landscape
 
 ::: {type=photo image=2023-08-22-04.jpg date="August 22, 2023" location="Genève, Switzerland" rig="eos-5d-mark-iv ef-11-24-40"}
 Genève, seen from the Saint Pierre Cathedral
+:::
+:::
+
+::: {.photos .layout-32o32-32}
+::: {type=photo image=2024-07-26-02.jpg date="July 26, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-50-14"}
+부산 (Songdo) cable cars
+:::
+
+::: {type=photo image=2024-07-26-01.jpg date="July 26, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-50-14"}
+부산 (Songdo) cable cars
+:::
+
+::: {type=photo image=2024-07-26-03.jpg date="July 26, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-50-14"}
+부산 (Songdo) cable cars
+:::
+:::
+
+::: {.photos}
+::: {type=photo image=2024-07-26-07.jpg date="July 26, 2024" location="부산 (Busan), South Korea" rig="eos-5d-mark-iv ef-24-70-28"}
+부산 (Songdo) cable cars
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-08-23-04.jpg date="August 23, 2025" location="Košice, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Košice, from Saint Elizabeth Cathedral
+:::
+
+::: {type=photo image=2025-08-23-07.jpg date="August 23, 2025" location="Košice, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Dragon sculpture at Čermeľský potôčik
+:::
+:::
+
+::: {.photos}
+::: {type=photo image=2025-08-25-05.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+North of Bratislava, from the UFO tower
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-08-25-06.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+South of Bratislava, from the UFO tower
+:::
+
+::: {type=photo image=2025-08-25-08.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+North of Bratislava, from the UFO tower
+:::
+:::
+
+::: {.photos .layout-32-23}
+::: {type=photo image=2025-08-25-12.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Eurovea mall
+:::
+
+::: {type=photo image=2025-08-25-13.jpg date="August 25, 2025" location="Bratislava, Slovakia" rig="eos-5d-mark-iv ef-24-70-28"}
+Eurovea mall
+:::
+:::
+
+::: {.photos .layout-32-32}
+::: {type=photo image=2025-09-03-04.jpg date="September 3, 2025" location="Baden-Baden, Germany" rig="eos-5d-mark-iv ef-11-24-40"}
+Alley in Baden-Baden
+:::
+
+::: {type=photo image=2025-09-03-05.jpg date="September 3, 2025" location="Baden-Baden, Germany" rig="eos-5d-mark-iv ef-24-70-28"}
+Statue of Otto von Bismarck
 :::
 :::
 
